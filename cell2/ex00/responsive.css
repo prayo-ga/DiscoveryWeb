@@ -1,0 +1,56 @@
+td
+{
+    border: 2px solid black;
+    width: 50%;
+    height: 250px;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.td-one
+{
+    background-color: rgb(168, 96, 235);
+    color: white;
+}
+
+.td-two
+{
+    background-color: rgb(125, 225, 192);
+    color: white;
+}
+
+@media (max-width: 600px)
+{
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    td
+    {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    table
+    {
+        table-layout: fixed;
+        align-items: center;
+        justify-content: center;
+        width: 100vh;
+    }
+
+    th
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
