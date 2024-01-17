@@ -6,6 +6,6 @@ if [ $# -eq 0 ]; then
 fi
 
 for arg in "$@"; do
-	dirname="ex-${arg}"
+	dirname="ex${arg}"
 	mkdir "$dirname"
 done

@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0 auto;
     color: white;
+    overflow: hidden;
 }
 
 html
@@ -19,11 +20,11 @@ body
 /* Hamburguer */
 .hamburguer
 {
+    margin-left: 20px;
+    margin-top: 10px;
     height: 100vh;
     display: block;
     position: relative;
-    top: 50px;
-    left: 50px;
     z-index: 1;
     -webkit-user-select: none;
     user-select: none;
@@ -49,7 +50,36 @@ body
     top: -7px;
     left: -5px;
     cursor: pointer;
-    opacity: 0;
+    opacity: 0%;
     z-index: 2;
     -webkit-touch-callout: none;
+}
+
+.menu
+{
+    overflow: hidden;
+    position: absolute;
+    width: 300px;
+    height: 100vh;  
+    padding: 50px;
+    background-color:black;
+    list-style-type: none;
+    z-index: -1;    
+    transition: all ease 2s;
+    transform: translateX(-150%);
+    border-right: 2px solid white;
+}
+
+.menu a
+{
+    color: white;
+    display: flex;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.hamburguer input:checked ~ ul
+{
+    display: block;
+    transform: translateX(0%);
 }

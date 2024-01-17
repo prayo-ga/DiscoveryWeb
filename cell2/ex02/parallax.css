@@ -1,0 +1,59 @@
+*
+{
+    padding: 0;
+    margin: 0 auto;
+}
+
+body
+{
+    width: 100vw;
+    height: 100vh;
+}
+
+.parallax
+{
+    background-image: url('https://roadtoit.tomeliott.com/assets/images/schools/img/42-photo.jpg');
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    -webkit-text-stroke: 2px black;
+}
+
+.parallax2
+{
+    background-image: url('https://42.fr/wp-content/uploads/2021/07/Panorama-42-2000x815.jpg');
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    -webkit-text-stroke: 2px black;
+}
+
+.parallax3
+{
+    background-image: url('https://www.porto.pt/_next/image?url=https%3A%2F%2Fmedia.porto.pt%2Foriginal_images%2Ffib_inauguracao_escola_42_04.JPG&w=1460&q=85');
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    -webkit-text-stroke: 2px black;
+}
