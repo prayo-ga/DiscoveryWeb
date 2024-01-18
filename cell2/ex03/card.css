@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0 auto;
+}
+
+html
+{
+    width: 100vw;
+    height: 100vh;
+}
+
+body
+{
+    background-color: #151515;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card
+{
+    background-color: #fff;
+    width: 500px;
+    height: 600px;
+}
+
+.card-head
+{
+    width: 500px;
+    display: flex;
+}
+
+.card-head img
+{
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.card-body
+{
+    margin-top: 20px;
+    height: 50%;
+}
+
+.card-footer
+{
+    background-color: #505050;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-contact
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.card-login
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    text-align: center;
+}
+
+.card-text
+{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.card-socials
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card-socials a
+{
+    color: black;
+    text-decoration: none;
+}
