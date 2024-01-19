@@ -1,0 +1,42 @@
+*
+{
+    padding: 0;
+    margin: 0 auto;
+}
+
+html, body
+{
+    width: 100vw;
+    height: 100vh;
+}
+
+body
+{
+    background-color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn
+{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgb(254, 213, 158);
+    font-size: larger;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(30px);
+    border-radius: 12px;
+    border: solid black 2px;
+}
+
+.color-view
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}

@@ -1,0 +1,66 @@
+*
+{
+    padding: 0;
+    margin: 0 auto;
+}
+
+html, body
+{
+    width: 100%;
+    height: 100%;
+}
+
+body
+{
+    background-color: skyblue;
+    overflow: hidden;
+}
+
+.balloon
+{
+    z-index: 1;
+    background-color: red;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.pops
+{
+    display: flex;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pops h3
+{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    text-shadow: 5px 5px 17px #252525;
+}
+
+.sign
+{
+    display: flex;
+    transform: translateY(200px);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    z-index: 2;
+}
+
+#explosion_gif
+{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

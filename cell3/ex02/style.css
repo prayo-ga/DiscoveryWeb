@@ -1,0 +1,72 @@
+*
+{
+    padding: 0;
+    margin: 0 auto;
+}
+
+html, body
+{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body
+{
+    background-color: #151515;
+}
+
+.title
+{
+    text-align: center;
+    font-size: 50px;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+}
+
+.calculator
+{
+    background-color: #fff;
+    width: 400px;
+    height: 500px;
+    border-radius: 12px;
+}
+
+.calculator-screen
+{
+    width: 90%;
+    height: 80px;
+    background-color: grey;
+    transform: translateY(30px);
+    border-radius: 12px;
+    border: 2px solid black;
+}
+
+.calculator-screen-data
+{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    justify-content: right;
+    padding-right: 15px;
+    font-family: DigitalSeven ;
+}
+
+/* CUSTOM FONT */
+
+@font-face {
+    font-family: 'DigitalSeven';
+    src: url('./fonts/digital_seven.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
